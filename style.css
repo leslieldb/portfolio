@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+html {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background: linear-gradient(rgba(127,2,204,1), rgba(127,2,204,1), #582055);
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex-nav {
+    width: 100%;
+    min-height: 3rem;
+    background: none;
+    padding: 0;
+    font-size: 20px;
+
+    justify-content: space-between;
+    display:flex;
+    align-items: center;
+}
+
+.flex-nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.flex-nav a:hover {
+    color: #8A8A8A;
+}
+
+header #topHR {
+    height: 4px;
+    background-color: #00FF10;
+    border: none;
+}
+
+.pfp {
+    margin: 0;
+}
+
+#profilePic {
+
+    margin: 0 10px 0 20px;
+    padding: 0;
+
+    /* progressive enhancement */
+	-moz-border-radius: 40px;
+	-o-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px; /* CSS3 rule */
+}
+
+#LinkedIn {
+    margin-right: 20px;
+    filter: invert(100%);
+}
+
+#LinkedIn:hover {
+    filter: none;
+    transition: 0.15s;
+}
+
+.header-nav {
+    width: 100%;
+    min-height: 3rem;
+    background: none;
+    padding: 0;
+    margin-top: 1rem;
+
+    display:flex;
+    align-items: center;
+}
+
+.header-nav {
+    width: 100%;
+    min-height: 3rem;
+    background: none;
+    padding: 0;
+    margin-top: 1rem;
+
+    display:flex;
+    align-items: center;
+}
+
+.header-nav h1 {
+    color: white;
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: 'Inter', sans-serif;
+}
+
+.header-nav a {
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+
+.header-nav a:hover {
+    color: white;
+}
+
+.nav-menu {
+    margin-left: auto;
+
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-menu li {
+    padding-left: 1rem;
+}
+
+.header-nav h1{
+    margin: 0;
+}

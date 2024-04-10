@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style_portfolio.css" rel="stylesheet">
-    <title>My Page</title>
+    <link href="style.css" rel="stylesheet">
+    <title>Portfolio - Prescott's Page</title>
 </head>
 
 <body>
@@ -26,9 +27,9 @@
             <nav class="flex-nav">
                 <a href="index.html">Home</a>
                 <a href="portfolio.html">Portfolio</a>
-                <a href="#">Goals</a>
-                <a href="#">Skills</a>
-                <a href="#">Resume</a>
+                <a href="goals.html">Goals</a>
+                <a href="certificates.html">Certificates</a>
+                <a href="resume.html">Resume</a>
             </nav>
         </div>
     </header>
@@ -52,6 +53,26 @@
             </div>
         </div>
         <div id="portfolioCardUI">
+            <div id="mainProjectDiv">
+                <div class="row">
+                    <div id="mainColumn1" class="column col-20">
+                        <img class="img-fluid" id="mainProjectImage" src="images/pikup.png" alt="PikUpApp" />
+                    </div>
+                    <div id="mainColumn2" class="column col-80">
+                        <article id="mainProject">
+                            <h2 id="mainSubjectHeader">Featured Project</h2>
+                            <h2 id="mainProjectName">PikUp</h2>
+                            <p id="mainProjectDescription">
+                                "PikUp" is an Android application to help people connect and build their community by sharing tools, co-shopping, and game-ifying picking up trash.
+                                <br /><br />
+                                A capstone project led by Ian Christian and Laura MacNeil.
+                            </p>
+                            <h3 id="mainClickToView">Click to view...</h3>
+                        </article>
+                    </div> 
+                </div>
+            </div>
+            <h1 id="allWorkHeader">All Worksamples</h2>
             <div class="row">
                 <div id="column1" class="column col-33">
                     <article id="project1">
@@ -61,36 +82,36 @@
                         <p>
                             A GUI program built in Python, which loads and displays a list of countries from a file, and when selecting a country, shows the flag and other information. User can update country's population, and write to a new file.
                         </p>
-                        <h3 id="clickToView">Click to view</h3>
+                        <h3 id="clickToView">Click to view...</h3>
                     </article>
                     <article id="project4">
-                        <img class="projectPicture" src="images/portfoliocode.png" alt="project 4" height="350px" width="380px">
-                        <h2 id="subject">Placeholder</h2>
-                        <h2 id="projectName">Placeholder Project</h2>
+                        <img class="projectPicture" src="images/ecosystem.png" alt="Ecosystem Simulation" height="350px" width="380px">
+                        <h2 id="subject">C++</h2>
+                        <h2 id="projectName">Ecosystem Simulation</h2>
                         <p>
-                            A placeholder project.
+                            A console-based ecosystem simulation featuring humans and zombies. Continuously simulates until either species goes extinct.
                         </p>
-                        <h3 id="clickToView">Click to view</h3>
+                        <h3 id="clickToView">Click to view...</h3>
                     </article>
                 </div>
                 <div id="column2" class="column col-33">
                     <article id="project2">
-                        <img class="projectPicture" src="images/wireframe.png" alt="UI Wireframe" height="350px" width="380px">
-                        <h2 id="subject">UI Design</h2>
-                        <h2 id="projectName">Portfolio Wireframes</h2>
+                        <img class="projectPicture" src="images/cheapco.png" alt="CheapCo Food Court" height="350px" width="380px">
+                        <h2 id="subject">Java</h2>
+                        <h2 id="projectName">CheapCo Food Court</h2>
                         <p>
-                            A new UI design created in Figma, which was made into an IT portfolio using HTML and CSS to show off some wonderful projects, like this one!
+                            A mockup for an order system for a food court kiosk, similar to what can be found at Costco.
                         </p>
-                        <h3 id="clickToView">Click to view</h3>
+                        <h3 id="clickToView">Click to view...</h3>
                     </article>
                     <article id="project5">
                         <img class="projectPicture" src="images/portfoliocode.png" alt="project 5" height="350px" width="380px">
-                        <h2 id="subject">Placeholder</h2>
-                        <h2 id="projectName">Placeholder Project</h2>
+                        <h2 id="subject">Kotlin</h2>
+                        <h2 id="projectName">Halifax Transit</h2>
                         <p>
-                            A placeholder project.
+                            An Android application that pulls GTFS data from Halifax Transit, and plots every bus on a map. Shows current bus alerts.
                         </p>
-                        <h3 id="clickToView">Click to view</h3>
+                        <h3 id="clickToView">Click to view...</h3>
                     </article>
                 </div>
                 <div id="column3" class="column col-33">
@@ -99,18 +120,18 @@
                         <h2 id="subject">Python</h2>
                         <h2 id="projectName">Game Show Scoreboard</h2>
                         <p>
-                            A terminal program built in Python, which takes scores for a game based off of a popular TV show, writes them to many files, and displays the files on an extrenal application, which can then be seen by a live audience.
+                            One of my first ever programs.<br />A terminal program built in Python, which takes scores for a game based off of a popular TV show, writes them to many files, and displays the files on an extrenal application, which can then be seen by a live audience.
                         </p>
-                        <h3 id="clickToView">Click to view</h3>
+                        <h3 id="clickToView">Click to view...</h3>
                     </article>
                     <article id="project6">
-                        <img class="projectPicture" src="images/portfoliocode.png" alt="project 6" height="350px" width="380px">
-                        <h2 id="subject">Placeholder</h2>
-                        <h2 id="projectName">Placeholder Project</h2>
+                        <img class="projectPicture" src="images/threeinarow.png" alt="Three in a row" height="350px" width="380px">
+                        <h2 id="subject">JavaScript</h2>
+                        <h2 id="projectName">Three in a row</h2>
                         <p>
-                            A placeholder project.
+                            A JavaScript replica of the BrainBashers "Three in a row" game. The object is to fill the entire game board without having 3 of the same color in a row.
                         </p>
-                        <h3 id="clickToView">Click to view</h3>
+                        <h3 id="clickToView">Click to view...</h3>
                     </article>
                 </div>
             </div>
@@ -123,13 +144,10 @@
                 <div class="col-50">
                     <h4>Contact</h4>
                     <p>
-                        202-40 Charlotte Lane<br>
                         Halifax, NS<br>
-                        B3M 4N4<br>
                         <br>
                         <a id="footerMail" href="mailto:phldb2@gmail.com">phldb2@gmail.com</a><br>
                         <br>
-                        (902) 789-4489
                     </p>
                 </div>
                 <div class="col-25">
@@ -137,9 +155,9 @@
                     <nav class="footer-site-nav">
                         <h4><a href="index.html">Home</a></h4>
                         <h4><a href="portfolio.html">Portfolio</a></h4>
-                        <h4><a href="#">Goals</a></h4>
-                        <h4><a href="#">Skills</a></h4>
-                        <h4><a href="#">Resume</a></h4>
+                        <h4><a href="goals.html">Goals</a></h4>
+                        <h4><a href="certificates.html">Certificates</a></h4>
+                        <h4><a href="resume.html">Resume</a></h4>
                     </nav>
                 </div>
                 <div class="col-25">
