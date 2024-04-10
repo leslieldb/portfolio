@@ -153,10 +153,8 @@
     text-decoration: underline;
 }
 
-
-
 #mainClickToView {
-    margin-top: 145px;
+    margin-top: 80px;
     padding-left: 10px;
     font-size: 26px;
     display: none;
@@ -170,6 +168,11 @@
 
 #mainProjectDiv:hover #mainProject{
     background-color: #7700B3;
+    transition: 0.25s;
+}
+
+#mainProjectDiv:hover #mainProjectImage {
+    filter: brightness(50%);
     transition: 0.25s;
 }
 
@@ -198,6 +201,139 @@
 #portfolioCardUI article:hover #clickToView {
     display: block;
     transition: 0.25s;
+}
+
+.worksample {
+    width: 85%;
+    margin: auto;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #CC3CC3;
+    color: #FFFFFF;
+
+    /* progressive enhancement */
+	-moz-border-radius: 14px;
+	-o-border-radius: 14px;
+	-webkit-border-radius: 14px;
+	border-radius: 14px; /* CSS3 rule */
+}
+
+.overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    opacity: 0;
+    overflow-y: auto;
+}
+
+#closeOverlay1, #closeOverlay2, #closeOverlay5 {
+    margin: 10px;
+    float: right;
+    filter: invert(100%);
+}
+
+#closeOverlay1:hover, #closeOverlay2:hover, #closeOverlay5:hover {
+    filter: none;
+    transition: 0.25s;
+}
+
+#closeOverlay1:hover, #closeOverlay2:hover, #closeOverlay5:hover {
+    cursor: pointer;
+}
+
+.worksampleHeader {
+    font-size: 46px;
+    margin: 10px;
+    margin-left: 20px;
+    padding-top: 10px;
+}
+
+.worksampleSubHeader {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.worksampleTask, .worksampleSteps, .worksampleSkillAreas, #project1Example, #project2Example, #project5Example, .worksampleKeyLearnings, .githubLink, .worksampleBenefits, .worksampleConnection {
+    margin-left: 20px;
+    font-size: 20px;
+    max-width: 95%;
+}
+
+.githubLogo {
+    filter: invert(100%);
+}
+
+#cnsLink {
+    color: #40F75C;
+}
+
+#cnsLink:hover {
+    filter: brightness(0%);
+    transition: 0.25s;
+    text-decoration: underline;
+}
+
+#cnsLink:any-link {
+    text-decoration: underline;
+    color: #40F75C;
+}
+
+.githubLink {
+    color: #FFFFFF;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    width: 277px;
+}
+
+.githubLink:hover {
+    filter: invert(100%);
+    transition: 0.25s;
+    text-decoration: underline;
+}
+
+.githubLink a:any-link {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.worksampleSteps, .worksampleKeyLearnings, .worksampleBenefits, .worksampleConnection {
+    margin-bottom: 0;
+    max-width: 95%;
+}
+
+.worksampleStepsList, .worksampleLearningsList, .businessBenefitsList, .connectionsList {
+    margin-top: 5px;
+    max-width: 95%;
+}
+
+.worksampleStep, .worksampleLearning, .worksampleSublistItem, .businessBenefitsItem, .benefitsSublistItem, .connectionsListItem {
+    margin: 3px 0;
+    font-size: 20px;
+}
+
+#workExampleHeader {
+    margin-bottom: 20px;
+}
+
+.workExamples {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.connectionsList {
+    padding-bottom: 15px;
+}
+
+.workExample {
+    height: 563px;
+    margin: 0 10px;
 }
 
 .pfp {

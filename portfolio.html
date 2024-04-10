@@ -5,22 +5,266 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
     <link href="style_portfolio.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
     <title>Portfolio - Prescott's Page</title>
 </head>
 
-<body>
+<body id="body">
+
+    <div class="overlay" id="overlay1">
+        <article class="worksample" id="worksample1">
+            <img class="img-fluid" id="closeOverlay1" src="images/close.png" alt="LinkedIn" height="40px" width="40px">
+            <h1 class="worksampleHeader">Worksample - PikUp</h1>
+            <p class="githubLink"><a href="#">View code on GitHub <img class="img-fluid githubLogo" src="images/github.png" alt="GitHub logo" height="30px" width="30px" /></a></p>
+            <p class="worksampleTask"><span class=worksampleSubHeader>Task —</span> Create an Android application to help people connect and build 
+            their community. In this application, you can game-ify picking up trash to minimize litter, you can also pick up and donate nearby tools to share, and split a shopping bill 
+            with someone in exchange for a share of the groceries, to help minimize food insecurity and food waste.</p>
+            <p class="worksampleSteps"><span class=worksampleSubHeader>Steps:</span>
+                <ul class="worksampleStepsList">
+                    <li class="worksampleStep">Create a SQL database for the application to store user data, location data, co-shop data, 
+                        tool data, and trash pickup data. </li>
+                    <li class="worksampleStep">Connect the Android Studio application to the database.</li>
+                    <li class="worksampleStep">Create a Login page and account system.</li>
+                    <li class="worksampleStep">Create a Dashboard page, displaying the user's points, and a leaderboard of the top 10 users' scores.</li>
+                    <li class="worksampleStep">Create a Profile page</li>
+                    <li class="worksampleStep">Import an external map service, to display a map of the user's location inside the application</li>
+                    <li class="worksampleStep">Create the Trash Cleanup page and functionality</li>
+                    <li class="worksampleStep">Create the Tool Share page and functionality</li>
+                    <li class="worksampleStep">Create the Co-Shop page and functionality, based on the winning 2023 Challenge Nova Scotia proposal, which you can find <a id="cnsLink" href="#">here</a></li>
+                    <li class="worksampleStep">Create a product details page, which will display all information of a selected product</li>
+                    <li class="worksampleStep">Create payment functionality</li>
+                </ul>
+            </p>
+            <p class="worksampleSteps"><span class=worksampleSubHeader>My Duties:</span>
+                <ul class="worksampleStepsList">
+                    <li class="worksampleStep">Designing and implementing the Dashboard page and its SQL queries</li>
+                    <li class="worksampleStep">Designing and implementing the Product Details page and its SQL queries</li>
+                    <li class="worksampleStep">Optimizing the tables and fields in the database</li>
+                    <li class="worksampleStep">Troubleshooting and testing</li>
+                </ul>
+            </p>
+            <p class="worksampleSkillAreas"><span class=worksampleSubHeader>Skill area —</span> User Experience (UX)</p>
+            <div id="project1Example">
+                <p><span class="worksampleSubHeader" id="workExampleHeader">Work Example</span></p>
+                <div class="workExamples">
+                    <img class="img-fluid workExample" id="project1Example1" src="images/p1example1.png" alt="Dashboard Page" />
+                    <img class="img-fluid workExample" id="project1Example2" src="images/p1example2.png" alt="Garbage Pickup Page" />
+                    <img class="img-fluid workExample" id="project1Example3" src="images/p1example3.png" alt="Tool Share Page" />
+                    <img class="img-fluid workExample" id="project1Example4" src="images/p1example4.png" alt="Co-Shop Page" />
+                </div>
+            </div>
+            <p class="worksampleKeyLearnings"><span class=worksampleSubHeader>Key Learnings:</span>
+                <ul class="worksampleLearningsList">
+                    <li class="worksampleLearning">Technical skills used:
+                        <ul class="worksampleLearningSubList">
+                            <li class="worksampleSublistItem">Kotlin, SQL, XML, Figma, Systems Analysis</li>
+                        </ul>
+                    </li>
+                    <li class="worksampleLearning">Progression of learning:
+                        <ul class="worksampleLearningSubList">
+                            <li class="worksampleSublistItem">The most I've ever done coding an Android app before was plotting bus locations on a map. This was 
+                                a big step up, and opened my eyes to the fact that there is so much more to all of these languages that we don't learn in college, 
+                                and that we don't even fathom is possible. Neverless, my team and I were able to put together a mostly functional prototype of the PikUp 
+                                application, and we're all very proud of ourselves.
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="worksampleLearning">How would I make it better?
+                        <ul class="worksampleLearningSubList">
+                            <li class="worksampleSublistItem">I didn't have much time to work on this application at all over the three months, and I didn't do as much as 
+                                I hoped I would be able to. I had gotten a lot better at time management before working on this project, and it showed, but I think I have to 
+                                work on it even more. I would have felt a lot more satisfied in the end.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </p>
+            <p class="worksampleBenefits"><span class=worksampleSubHeader>Business benefits:</span>
+                <ul class="businessBenefitsList">
+                    <li class="businessBenefitsItem">Because of the encouraged community engagement, brand awareness, and ease-of-use of this application, this shows that I can contribute to a team that develops programs that:</li>
+                    <ul class="businessBenefitsSublist">
+                        <li class="benefitsSublistItem">Can greatly improve communities</li>
+                        <li class="benefitsSublistItem">Can help enhance the team's reputation</li>
+                        <li class="benefitsSublistItem">Can create many networking opportunities</li>
+                        <li class="benefitsSublistItem">Have very user-friendly interfaces</li>
+                    </ul>
+                </ul>
+            </p>
+            <p class="worksampleConnection"><span class=worksampleSubHeader>Connection to Me:</span>
+                <ul class="connectionsList">
+                    <li class="connectionsListItem">It felt really nice that an idea that my peers and I came up with was being implemented into 
+                        a big group capstone, even with the flaws the idea had. I'm very happy with how the first prototype of Co-Shop turned out, 
+                        and I would love to take it a bit further.
+                    </li>
+                    <li class="connectionsListItem">This was my first ever group coding project, and it was a very nice first impression, even with all 
+                        of the setbacks. I'm looking forward to collaborating with even more wonderful programmers in the future!
+                    </li>
+                </ul>
+            </p>
+        </article>
+    </div>
+    <div class="overlay" id="overlay2">
+        <article class="worksample" id="worksample2">
+            <img class="img-fluid" id="closeOverlay2" src="images/close.png" alt="Close Worksample" height="40px" width="40px">
+            <h1 class="worksampleHeader">Worksample - Countries of the World</h1>
+            <p class="githubLink"><a href="https://github.com/leslieldb/countriesoftheworld-python" target="_blank">View code on GitHub <img class="img-fluid githubLogo" src="images/github.png" alt="GitHub logo" height="30px" width="30px" /></a></p>
+            <p class="worksampleTask"><span class=worksampleSubHeader>Task —</span> Develop a GUI program that reads a list of countries and their information from a file, 
+                and when clicked, displays its name, flag, population, area in miles and kilometers, and population density in miles and kilometers. 
+                Population can be updated by the user and can be saved and overwritten to a file. </p>
+            <p class="worksampleSteps"><span class=worksampleSubHeader>Steps:</span>
+                <ul class="worksampleStepsList">
+                    <li class="worksampleStep">Created a new interface in Python Qtdesigner, using multiple selection lists and buttons.</li>
+                    <li class="worksampleStep">Set up the graphical buttons with normal Python functions, to do things such as update a country’s population density or write the information to a file.</li>
+                    <li class="worksampleStep">Thoroughly tested the program for errors or bugs in the software, to ensure peak performance.</li>
+                </ul>
+            </p>
+            <p class="worksampleSkillAreas"><span class=worksampleSubHeader>Skill area —</span> Data Visualization</p>
+            <div id="project2Example">
+                <p><span class="worksampleSubHeader" id="workExampleHeader">Work Example</span></p>
+                <div class="workExamples">
+                    <img class="img-fluid workExample" id="project2Example1" src="images/p2example1.png" alt="Country GUI" />
+                    <img class="img-fluid workExample" id="project2Example2" src="images/p2example2.png" alt="Application Code" />
+                </div>
+            </div>
+            <p class="worksampleKeyLearnings"><span class=worksampleSubHeader>Key Learnings:</span>
+                <ul class="worksampleLearningsList">
+                    <li class="worksampleLearning">Technical skills used:
+                        <ul class="worksampleLearningSubList">
+                            <li class="worksampleSublistItem">Python, UI Design, Systems Analysis</li>
+                        </ul>
+                    </li>
+                    <li class="worksampleLearning">Progression of learning:
+                        <ul class="worksampleLearningSubList">
+                            <li class="worksampleSublistItem">With minimal knowledge on UI design and Python UI, I was able to create a program 
+                                which displayed accurate information about countries read from a file. 
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="worksampleLearning">How would I make it better?
+                        <ul class="worksampleLearningSubList">
+                            <li class="worksampleSublistItem">Looking back, I realized that some information displayed was inaccurate because of 
+                                a bug in the program that I didn’t find while testing. To make it better, I would have tested the program a lot 
+                                more thoroughly so the program would meet all needs. I also would have applied best practices for designing a UI, 
+                                and would have put every program action in its own function as that is better practice.</li>
+                        </ul>
+                    </li>
+                </ul>
+            </p>
+            <p class="worksampleBenefits"><span class=worksampleSubHeader>Business benefits:</span>
+                <ul class="businessBenefitsList">
+                    <li class="businessBenefitsItem">Because of the program design, this shows that I can develop programs that:</li>
+                    <ul class="businessBenefitsSublist">
+                        <li class="benefitsSublistItem">Meet client needs</li>
+                        <li class="benefitsSublistItem">Are more compact and efficient</li>
+                        <li class="benefitsSublistItem">Are easier to understand</li>
+                        <li class="benefitsSublistItem">Are a good demonstration of teamwork</li>
+                    </ul>
+                </ul>
+            </p>
+            <p class="worksampleConnection"><span class=worksampleSubHeader>Connection to Me:</span>
+                <ul class="connectionsList">
+                    <li class="connectionsListItem">This was a great demonstration of my learning, and also shows 
+                        how quickly I was able to pick up on it!</li>
+                    <li class="connectionsListItem">I've become a bit of a geography buff, so I was very motivated to work on this 
+                        as this ties into that. This shows off that as long as I'm interested, I can stay very self-motivated to get things done.</li>
+                    <li class="connectionsListItem">This work sample helped me realize that I need to test programs more thoroughly. 
+                        I have since then taken a course containing program testing, so I've learned even more about the importance of testing.</li>
+                </ul>
+            </p>
+        </article>
+    </div>
+    <div class="overlay" id="overlay3"></div>
+    <div class="overlay" id="overlay4"></div>
+    <div class="overlay" id="overlay5">
+        <article class="worksample" id="worksample5">
+            <img class="img-fluid" id="closeOverlay5" src="images/close.png" alt="LinkedIn" height="40px" width="40px">
+            <h1 class="worksampleHeader">Worksample - Ecosystem Simulation</h1>
+            <p class="githubLink"><a href="https://github.com/leslieldb/ecosystemsim-cpp" target="_blank">View code on GitHub <img class="img-fluid githubLogo" src="images/github.png" alt="GitHub logo" height="30px" width="30px" /></a></p>
+            <p class="worksampleTask"><span class=worksampleSubHeader>Task —</span> Develop a console-based program that simulates an ecosystem containing Humans and Hombies in a 20 x 20 grid. Application should run until either 
+            species goes extinct. Humans should be able to move and recruit other Humans, while Zombies should be able to move, breed other Zombies, and bite Humans to turn them into Zombies. Zombies should also be able to
+            starve and change back to a Human. Number of Humans and Zombies should be constantly tracked.</p>
+            <p class="worksampleSteps"><span class=worksampleSubHeader>Steps:</span>
+                <ul class="worksampleStepsList">
+                    <li class="worksampleStep">Display a 20 x 20 grid, and fill the grid with an initial amount of entities.</li>
+                    <li class="worksampleStep">Create a turn function for both Humans and Zombies, and run functions for every possibly action inside each turn function.</li>
+                    <li class="worksampleStep">Ensure that the ecosystem functions correctly, and terminates if an extinction happens.</li>
+                    <li class="worksampleStep">Thoroughly test the program for errors or bugs, to ensure peak performance.</li>
+                </ul>
+            </p>
+            <p class="worksampleSkillAreas"><span class=worksampleSubHeader>Skill area —</span> Object-Oriented Programming</p>
+            <div id="project5Example">
+                <p><span class="worksampleSubHeader" id="workExampleHeader">Work Example</span></p>
+                <div class="workExamples">
+                    <img class="img-fluid workExample" id="project5Example1" src="images/p5example1.png" alt="Ecosystem Running" />
+                    <img class="img-fluid workExample" id="project5Example2" src="images/p5example2.png" alt="Ecosystem Code" />
+                    <img class="img-fluid workExample" id="project5Example3" src="images/p5example3.png" alt="Extinct Ecosystem" />
+                </div>
+            </div>
+            <p class="worksampleKeyLearnings"><span class=worksampleSubHeader>Key Learnings:</span>
+                <ul class="worksampleLearningsList">
+                    <li class="worksampleLearning">Technical skills used:
+                        <ul class="worksampleLearningSubList">
+                            <li class="worksampleSublistItem">C++, Systems Analysis</li>
+                        </ul>
+                    </li>
+                    <li class="worksampleLearning">Progression of learning:
+                        <ul class="worksampleLearningSubList">
+                            <li class="worksampleSublistItem">This was a huge step up from anything I had done in C++ before. Even so, I was able to create 
+                                a program which successfully simulated a working ecosystem in the console.
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="worksampleLearning">How would I make it better?
+                        <ul class="worksampleLearningSubList">
+                            <li class="worksampleSublistItem">I had tried to add a few more cosmetic features, but they ended up not working, so I scrapped them. One of these features 
+                                was turning the entire grid to black text on a bright red background whenever an extinction happened. I would like to come back and 
+                                tie up these loose ends.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </p>
+            <p class="worksampleBenefits"><span class=worksampleSubHeader>Business benefits:</span>
+                <ul class="businessBenefitsList">
+                    <li class="businessBenefitsItem">Because of the program architecture, design, and testing, this shows that I can develop programs that:</li>
+                    <ul class="businessBenefitsSublist">
+                        <li class="benefitsSublistItem">Meet client needs</li>
+                        <li class="benefitsSublistItem">Are quick and efficient</li>
+                        <li class="benefitsSublistItem">Are optimized and tidied well</li>
+                        <li class="benefitsSublistItem">Demonstrate proper polymorphism</li>
+                        <li class="benefitsSublistItem">Are visually appealing to the user</li>
+                    </ul>
+                </ul>
+            </p>
+            <p class="worksampleConnection"><span class=worksampleSubHeader>Connection to Me:</span>
+                <ul class="connectionsList">
+                    <li class="connectionsListItem">This was a fun learning experience, and helped me gain lots of confidence in my C++ abilities 
+                        that I had nowhere near as much of before starting the project.
+                    </li>
+                    <li class="connectionsListItem">This work sample made me realize that I overthink things a lot. Once I had a tiny nudge in the 
+                        right direction, I realized that this was a lot simpler than I had initially thought, and I got it done in good time.
+                    </li>
+                </ul>
+            </p>
+        </article>
+    </div>
+    <div class="overlay" id="overlay6"></div>
+    <div class="overlay" id="overlay7"></div>
 
     <header>
         <div class="container">
             <nav class="header-nav">
                 <ul class="pfp">
-                    <li><img class="img-fluid" id="profilePic" src="images/meltyartcropped.png" alr="Art of my OC" height="68px" width="68px"></li>
+                    <li><img class="img-fluid" id="profilePic" src="images/meltyartcropped.png" alt="Art of my OC" height="68px" width="68px"></li>
                 </ul>
                 <h1>Prescott's Page</h1>
                 <ul class="nav-menu">
-                    <li><a href="https://www.linkedin.com/in/prescott-hogan-44a132258/" target="_blank"><img class="img-fluid" id="LinkedIn" src="images/linkedin.png" alr="LinkedIn" height="46px" width="46px"></a></li>
+                    <li><a href="https://www.linkedin.com/in/prescott-hogan-44a132258/" target="_blank"><img class="img-fluid" id="LinkedIn" src="images/linkedin.png" alt="LinkedIn" height="46px" width="46px"></a></li>
                 </ul>
             </nav>
             <hr id="topHR">
@@ -44,7 +288,7 @@
                     </p>
                 </div>
                 <p id="aboutPortfolio">
-                    This contains lots of my proudest projects from over the years, including things for school, work
+                    This contains worksamples of my proudest projects from over the years, including things for school, work
                     and personal projects. I hope you like what you see!
                 </p>
             </div>
@@ -64,15 +308,17 @@
                             <h2 id="mainProjectName">PikUp</h2>
                             <p id="mainProjectDescription">
                                 "PikUp" is an Android application to help people connect and build their community by sharing tools, co-shopping, and game-ifying picking up trash.
-                                <br /><br />
+                                <br /><br/>
+                                Co-Shop functioanlity based on my team's winning 2023 Challenge Nova Scotia proposal.
+                                <br /><br /><br/>
                                 A capstone project led by Ian Christian and Laura MacNeil.
                             </p>
-                            <h3 id="mainClickToView">Click to view...</h3>
+                            <h3 id="mainClickToView">Click to view worksample...</h3>
                         </article>
                     </div> 
                 </div>
             </div>
-            <h1 id="allWorkHeader">All Worksamples</h2>
+            <h1 id="allWorkHeader">All Worksamples</h1>
             <div class="row">
                 <div id="column1" class="column col-33">
                     <article id="project1">
@@ -82,7 +328,7 @@
                         <p>
                             A GUI program built in Python, which loads and displays a list of countries from a file, and when selecting a country, shows the flag and other information. User can update country's population, and write to a new file.
                         </p>
-                        <h3 id="clickToView">Click to view...</h3>
+                        <h3 id="clickToView">Click to view worksample...</h3>
                     </article>
                     <article id="project4">
                         <img class="projectPicture" src="images/ecosystem.png" alt="Ecosystem Simulation" height="350px" width="380px">
@@ -91,7 +337,7 @@
                         <p>
                             A console-based ecosystem simulation featuring humans and zombies. Continuously simulates until either species goes extinct.
                         </p>
-                        <h3 id="clickToView">Click to view...</h3>
+                        <h3 id="clickToView">Click to view worksample...</h3>
                     </article>
                 </div>
                 <div id="column2" class="column col-33">
@@ -102,16 +348,16 @@
                         <p>
                             A mockup for an order system for a food court kiosk, similar to what can be found at Costco.
                         </p>
-                        <h3 id="clickToView">Click to view...</h3>
+                        <h3 id="clickToView">Click to view worksample...</h3>
                     </article>
                     <article id="project5">
-                        <img class="projectPicture" src="images/portfoliocode.png" alt="project 5" height="350px" width="380px">
+                        <img class="projectPicture" src="images/transit.png" alt="Halifax Transit App" height="350px" width="380px">
                         <h2 id="subject">Kotlin</h2>
                         <h2 id="projectName">Halifax Transit</h2>
                         <p>
                             An Android application that pulls GTFS data from Halifax Transit, and plots every bus on a map. Shows current bus alerts.
                         </p>
-                        <h3 id="clickToView">Click to view...</h3>
+                        <h3 id="clickToView">Click to view worksample...</h3>
                     </article>
                 </div>
                 <div id="column3" class="column col-33">
@@ -122,7 +368,7 @@
                         <p>
                             One of my first ever programs.<br />A terminal program built in Python, which takes scores for a game based off of a popular TV show, writes them to many files, and displays the files on an extrenal application, which can then be seen by a live audience.
                         </p>
-                        <h3 id="clickToView">Click to view...</h3>
+                        <h3 id="clickToView">Click to view worksample...</h3>
                     </article>
                     <article id="project6">
                         <img class="projectPicture" src="images/threeinarow.png" alt="Three in a row" height="350px" width="380px">
@@ -131,7 +377,7 @@
                         <p>
                             A JavaScript replica of the BrainBashers "Three in a row" game. The object is to fill the entire game board without having 3 of the same color in a row.
                         </p>
-                        <h3 id="clickToView">Click to view...</h3>
+                        <h3 id="clickToView">Click to view worksample...</h3>
                     </article>
                 </div>
             </div>
@@ -171,6 +417,7 @@
         </div>
     </footer>
 
+    <script src="script_portfolio.js"></script>
 </body>
 
 </html>
