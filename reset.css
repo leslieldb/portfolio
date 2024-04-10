@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/* Reset stylesheet */
+
+/* reset/turn off default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* old browsers can display new HTML tags properly*/
+article, aside, figure, figcaption, footer,
+header, main, nav, section {
+    display: block;
+}

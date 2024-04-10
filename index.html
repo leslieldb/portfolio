@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style_index.css" rel="stylesheet">
+    <title>My Page</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <nav class="header-nav">
+                <ul class="pfp">
+                    <li><img class="img-fluid" id="profilePic" src="images/meltyartcropped.png" alr="Art of my OC" height="68px" width="68px"></li>
+                </ul>
+                <h1>Prescott's Page</h1>
+                <ul class="nav-menu">
+                    <li><a href="https://www.linkedin.com/in/prescott-hogan-44a132258/" target="_blank"><img class="img-fluid" id="LinkedIn" src="images/linkedin.png" alr="LinkedIn" height="46px" width="46px"></a></li>
+                </ul>
+            </nav>
+            <hr id="topHR">
+            <nav class="flex-nav">
+                <a href="index.html">Home</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="#">Goals</a>
+                <a href="#">Skills</a>
+                <a href="#">Resume</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="column col-70">
+                <div id="indexTopBar">
+                    <h1>Welcome!</h1>
+                    <p>
+                        Hi! I'm Prescott, an aspiring computer programmer/engineer, and welcome to my page!
+                    </p>
+                </div>
+                <p id="aboutMe">
+                    I've been using computers ever since I was 3 years old, and I've loved everything about them. I
+                    learned my first programming language, HTML, when i was 8 years old, and I thought that was one
+                    of the most fascinating things I had utilized at the time.<br><br>
+                    I built my first PC in early 2019, and I've kept building off of it ever since. I started
+                    programming again in early 2021 by learning Python. I am now in my first year of community
+                    college, with 8 languages under my belt, incuding CSS, JavaScript, T-SQL, C, Java, and Linux.
+                    I'm very interested and excited to learn more about the field, and I can't wait to use what I've
+                    learned to make my mark on the world!
+                </p>
+            </div>
+            <div class="column col-30">
+                <img class="img-fluid" id="homePhoto" src="images/alexart.png" alt="Sketch of my OC">
+            </div>
+        </div>
+        <div class="contactMe">
+            <article id="contactBox">
+                <div class="row">
+                    <div class="column col-40">
+                        <h2 id="contactHeader">Contact Me</h2>
+
+                        <h3>Address</h3>
+                        <p>
+                            40 Charlotte Lane<br>
+                            Suite 202<br>
+                            Halifax, NS<br>
+                            B3M 4N4
+                        </p>
+
+                        <h3>Email</h3>
+                        <p>
+                            Personal: <a class="email" href="mailto:phldb2@gmail.com">phldb2@gmail.com</a><br>
+                            School: <a class="email" href="mailto:w0470395@nscc.ca">w0470395@nscc.ca</a><br>
+                            Work: <a class="email" href="mailto:prhogan@loblaw.ca">prhogan@loblaw.ca</a>
+                        </p>
+
+                        <h3>Phone Number</h3>
+                        <p id="bottomMargin">
+                            Cell: (902) 789-4489
+                        </p>
+                    </div>
+                    <div class="column col-60">
+                        <h2 id="topMargin">Send a message</h2>
+                        <div class="nestedRow">
+                            <form id="sendMessage" method="post">
+                                <div id="labels" class="column col-30">
+                                <h4><label for="fname">First Name</label></h4>
+                                <br>
+                                <h4><label for="lname">Last Name</label></h4>
+                                <br>
+                                <h4><label id="eLabel" for="email">Email</label></h4>
+                                <br>
+                                <h4><label for="message">Message</label></h4>
+                                <br>
+                                </div>
+
+                                <div id="inputs" class="column col-70">
+                                    <input type="text" id="fName" name="FirstName" placeholder="Your first name" required>
+                                    <br>
+                                    <input type="text" id="lName" name="LastName" placeholder="Your last name" required>
+                                    <br>
+                                    <input type="email" id="email" name="EmailAddress" placeholder="Your email address" required>
+                                    <br>
+                                    <textarea id="message" name="Subject" placeholder="Write a message here" required></textarea>
+                                    <br>
+                                </div>
+
+                                <button id="submitButton" type="submit">Send</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row" id="footerRow">
+                <div class="col-50">
+                    <h4>Contact</h4>
+                    <p>
+                        202-40 Charlotte Lane<br>
+                        Halifax, NS<br>
+                        B3M 4N4<br>
+                        <br>
+                        <a id="footerMail" href="mailto:phldb2@gmail.com">phldb2@gmail.com</a><br>
+                        <br>
+                        (902) 789-4489
+                    </p>
+                </div>
+                <div class="col-25">
+                    <h4>Site Navigation</h4>
+                    <nav class="footer-site-nav">
+                        <h4><a href="index.html">Home</a></h4>
+                        <h4><a href="portfolio.html">Portfolio</a></h4>
+                        <h4><a href="#">Goals</a></h4>
+                        <h4><a href="#">Skills</a></h4>
+                        <h4><a href="#">Resume</a></h4>
+                    </nav>
+                </div>
+                <div class="col-25">
+                    <h4>Social Media</h4>
+                    <nav class="footer-social-nav">
+                        <h4><a href="https://www.linkedin.com/in/prescott-hogan-44a132258/" target="_blank">LinkedIn</a></h4>
+                    </nav>
+                </div>        
+            </div>
+            <h4 id="copyright">Copyright &#169; 2023</h4>
+        </div>
+    </footer>
+
+</body>
+
+</html>

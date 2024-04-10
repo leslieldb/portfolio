@@ -1,0 +1,374 @@
+@charset "UTF-8";
+
+html {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background: linear-gradient(rgba(200,0,255,1), rgba(200,0,255,1), #582055);
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex-nav {
+    width: 100%;
+    min-height: 3rem;
+    background: none;
+    padding: 0;
+
+    justify-content: space-between;
+    display:flex;
+    align-items: center;
+}
+
+.flex-nav a {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.flex-nav a:hover {
+    color: white;
+}
+
+header #topHR {
+    height: 4px;
+    background-color: #00FF10;
+    border: none;
+}
+
+.pfp {
+    margin: 0;
+}
+
+#profilePic {
+
+    margin: 0 10px 0 20px;
+    padding: 0;
+
+    /* progressive enhancement */
+	-moz-border-radius: 40px;
+	-o-border-radius: 40px;
+	-webkit-border-radius: 40px;
+	border-radius: 40px; /* CSS3 rule */
+}
+
+#LinkedIn {
+    margin-right: 20px;
+    filter: invert(100%);
+}
+
+#LinkedIn:hover {
+    filter: none;
+    transition: 0.15s;
+}
+
+.header-nav {
+    width: 100%;
+    min-height: 3rem;
+    background: none;
+    padding: 0;
+    margin-top: 1rem;
+
+    display:flex;
+    align-items: center;
+}
+
+.header-nav h1 {
+    color: white;
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: 'Inter', sans-serif;
+}
+
+.header-nav a {
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+}
+
+.header-nav a:hover {
+    color: white;
+}
+
+.nav-menu {
+    margin-left: auto;
+
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-menu li {
+    padding-left: 1rem;
+}
+
+.header-nav h1{
+    margin: 0;
+}
+
+#indexTopBar {
+    padding: 10px 0 10px 1rem;
+    color: #FFFFFF;
+    background-color: #7928CA;
+
+    /* progressive enhancement */
+	-moz-border-radius: 14px 0 0 14px;
+	-o-border-radius: 14px 0 0 14px;
+	-webkit-border-radius: 14px 0 0 14px;
+	border-radius: 14px 0 0 14px; /* CSS3 rule */
+    
+    
+}
+
+#indexTopBar h1 {
+    margin: 0;
+    font-size: 50px;
+}
+
+#aboutMe {
+    padding: 0 1rem;
+    color: #FFFFFF;
+
+    font-size: 18px;
+}
+
+#indexTopBar p {
+    margin: 0;
+    font-size: 18px;
+}
+
+#homePhoto {
+    margin-bottom: 1rem;
+
+    /* progressive enhancement */
+	-moz-border-radius: 0 14px 14px 14px;
+	-o-border-radius: 0 14px 14px 14px;
+	-webkit-border-radius: 0 14px 14px 14px;
+	border-radius: 0 14px 14px 14px; /* CSS3 rule */
+}
+
+#contactBox .row {
+    max-width: 1200px;
+
+}
+
+#contactBox {
+    padding: 1px 0 1px 1rem;
+    background-color: #4EB16B;
+    overflow: hidden;
+
+    /* progressive enhancement */
+	-moz-border-radius: 14px;
+	-o-border-radius: 14px;
+	-webkit-border-radius: 14px;
+	border-radius: 14px; /* CSS3 rule */
+
+    color: #FFFFFF;
+
+    clear: both;
+}
+
+#contactBox a.email {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+#contaxtBox a.email:hover {
+    color: #FF00EF;
+}
+
+#contactHeader {
+    font-size: 26px;
+    color: #7928CA;
+
+    font-weight: bold;
+}
+
+#contactBox #topMargin {
+    margin-top: 21.580px;
+}
+
+#contactBox #bottomMargin {
+   margin-bottom: 21.580px;
+}
+
+#sendMessage {
+    clear: right;
+}
+
+.pfp {
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+#contactBox h3, p {
+    margin: 1rem 0
+}
+
+#contactBox h3, h2 {
+    font-size: 24px;
+}
+
+#contactBox p, h4 {
+    font-size: 18px;
+}
+
+label {
+    float: left;
+}
+
+input, textarea, select {
+    margin-bottom: 18px;
+    float: left;
+
+    width: 538px;
+}
+
+input, select {
+    height: 20px;
+}
+
+textarea {
+    resize: none;
+
+    font-family: 'Inter', sans-serif;
+
+    height: 130px;
+}
+
+button#submitButton {
+    display: block;
+    clear: both;
+
+    margin-left: 280px;
+    padding: 5px 25px;
+
+    /* progressive enhancement */
+	-moz-border-radius: 14px;
+	-o-border-radius: 14px;
+	-webkit-border-radius: 14px;
+	border-radius: 14px; /* CSS3 rule */
+
+    background-color: #7928CA;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+
+    font-size: 20px;
+    
+}
+
+button#submitButton:hover {
+    background-color: #CC3CC3;
+    color: black;
+
+    transition: 0.15s;
+}
+
+#inputs {
+    float: left;
+    margin-top: -155px;
+    padding-left: 130px;
+}
+
+footer {
+    margin-top: 60px;
+    background-color: #000000;
+}
+
+#footerRow {
+    width: 1200px;
+
+    color: #FFFFFF;
+
+    margin: 0 auto;
+}
+
+.footer-site-nav h4 {
+    margin: 0.5rem 0;
+}
+
+#footerRow a {
+    color: #FFFFFF;
+    margin-top: auto;
+
+    font-size: 16px;
+
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#footerRow a:hover {
+    text-decoration: underline;
+}
+
+#copyright {
+    margin: 0;
+    padding: 25px 0 10px 0;
+
+    color: #FFFFFF;
+    
+    font-size: 12px;
+    font-weight: normal;
+}
+
+footer p {
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+#footerMail {
+    text-decoration: underline;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.nestedRow {
+    width: 100%;
+    display: flex;
+}
+
+.col-70 {
+    width: 70%;
+}
+
+.col-60 {
+    width: 60%;
+}
+
+.col-50 {
+    width: 50%;
+}
+
+.col-40 {
+    width: 40%;
+}
+
+.col-30 {
+    width: 30%;
+}
+
+.col-30 img {
+    width: 100%;
+}
+
+.col-25 {
+    width: 25%;
+}
