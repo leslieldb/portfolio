@@ -26,6 +26,13 @@
     font-size: 18px;
 }
 
+#resumeLayout {
+    width: 75%;
+    margin: auto;
+    background-color: #FFFFFF;
+    padding: 10px 40px;
+}
+
 .pfp {
     padding: 0;
     display: flex;
@@ -33,9 +40,96 @@
     align-items: center;
 }
 
+.boldResumeText {
+    font-weight: bold;
+}
+
+.personalHeader {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #579836;
+    margin-bottom: 3px;
+}
+
+.experienceHeader {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #BFA9FF;
+    margin-bottom: 5px;
+    padding-bottom: 0;
+}
+
+#lookingFor {
+    font-weight: bold;
+    color: #BFA9FF;
+}
+
+#lookingForP {
+    margin-top: 0;
+}
+
+.workSubDivBottom {
+    margin-bottom: 15px;
+}
+
+.educationSubDiv {
+    margin-bottom: 15px;
+}
+
+#myName {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.normal-header {
+    font-weight: normal;
+}
+
+.header-row h2 {
+    margin-top: 0;
+}
+
+.header-row h2, .header-row h1{
+    margin-bottom: 5px;
+}
+
+#resumeHeader {
+    font-family: 'Montserrat', sans-serif;
+}
+
 footer {
     margin-top: 60px;
     background-color: #000000;
+}
+
+.workAchievements {
+    margin-top: 0;
+}
+
+.workAchievements li {
+    margin: 2px 0;
+}
+
+.personalList {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.personalList li {
+    margin: 2px 0;
+}
+
+.right-text {
+    text-align: right;
+}
+
+#resumeHeader {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.resumeHr {
+    height: 3px;
+    background-color: #7030A0;
 }
 
 #footerRow {
@@ -86,6 +180,10 @@ footer p {
 .row {
     width: 100%;
     display: flex;
+}
+
+.col-95 {
+    width: 95%;
 }
 
 .col-70 {

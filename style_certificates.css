@@ -40,18 +40,25 @@
 	border-radius: 0 14px 14px 14px; /* CSS3 rule */
 }
 
-#portfolioCardUI .row {
-    max-width: 1200px;
-
+.left-header {
+    margin-left: 25px;
+    color: #73FF7A;
 }
 
-#portfolioCardUI article {
-    padding: 0;
-    margin-bottom: 20px;
-    background-color: #7928CA;
-    overflow: hidden;
-    height: 539px;
-    width: 380px;
+.right-header {
+    margin-right: 25px;
+    color: #802BFF;
+}
+
+#aboutCertificates {
+    padding: 0 1rem;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+#certificate1, #certificate3 {
+    background-color: #B1FF99;
+    height: 407px;
 
     /* progressive enhancement */
 	-moz-border-radius: 14px;
@@ -59,73 +66,62 @@
 	-webkit-border-radius: 14px;
 	border-radius: 14px; /* CSS3 rule */
 
-    color: #FFFFFF;
-
-    clear: both;
 }
 
-#portfolioCardUI article img {
+#certificate2 {
+    background-color: #C299FF;
+    height: 407px;
+
     /* progressive enhancement */
-	-moz-border-radius: 14px 14px 0 0;
-	-o-border-radius: 14px 14px 0 0;
-	-webkit-border-radius: 14px 14px 0 0;
-	border-radius: 14px 14px 0 0; /* CSS3 rule */
+	-moz-border-radius: 14px;
+	-o-border-radius: 14px;
+	-webkit-border-radius: 14px;
+	border-radius: 14px; /* CSS3 rule */
+
 }
 
-#portfolioCardUI article #subject {
-    margin: 0;
-    padding: 10px;
-    color: #4EB16B;
+#introvert_certificate {
+    width: 525px;
+    height: 407px;
+
+    /* progressive enhancement */
+	-moz-border-radius: 14px 0 0 14px;
+	-o-border-radius: 14px 0 0 14px;
+	-webkit-border-radius: 0 0 14px 14px;
+	border-radius: 14px 0 0 14px; /* CSS3 rule */
 }
 
-#portfolioCardUI article #projectName {
-    margin: 0;
-    padding: 0 0 0 10px;
-    color: #FFFFFF;
+#personal_brand {
+    width: 525px;
+    height: 407px;
+
+    /* progressive enhancement */
+	-moz-border-radius: 0 14px 14px 0;
+	-o-border-radius: 0 14px 14px 0;
+	-webkit-border-radius: 0 14px 14px 0;
+	border-radius: 0 14px 14px 0; /* CSS3 rule */
 }
 
-#portfolioCardUI article p {
-    margin: 0;
-    padding: 10px;
-
-    font-size: 14px;
+.certificateDiv {
+    margin-bottom: 25px;
 }
 
-#portfolioCardUI #column1, #column2 {
-    margin-right: 15px;
+.align-right {
+    text-align: right;
 }
 
-#portfolioCardUI #column2, #column3 {
-    margin-left: 15px;
+.align-left {
+    text-align: left;
 }
 
-#portfolioCardUI article #clickToView {
-    margin-top: 6px;
-    padding-left: 10px;
-    display: none;
-
-    text-decoration: underline;
+.right-desc {
+    margin-right: 25px;
+    font-size: 18px;
 }
 
-#portfolioCardUI article:hover {
-    background-color: #CC3CC3;
-    transition: 0.25s;
-}
-  
-#portfolioCardUI article:hover .projectPicture {
-    height: 300px;
-    filter:brightness(50%);
-    transition: 0.25s;
-}
-
-#portfolioCardUI article:hover #clickToViewTop {
-    display: block;
-    transition: 0.25s;
-}
-
-#portfolioCardUI article:hover #clickToView {
-    display: block;
-    transition: 0.25s;
+.left-desc {
+    margin-left: 25px;
+    font-size: 18px;
 }
 
 .pfp {
