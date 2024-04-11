@@ -97,11 +97,6 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-footer {
-    margin-top: 60px;
-    background-color: #000000;
-}
-
 .workAchievements {
     margin-top: 0;
 }
@@ -130,51 +125,6 @@ footer {
 .resumeHr {
     height: 3px;
     background-color: #7030A0;
-}
-
-#footerRow {
-    width: 1200px;
-
-    color: #FFFFFF;
-
-    margin: 0 auto;
-}
-
-.footer-site-nav h4 {
-    margin: 0.5rem 0;
-}
-
-#footerRow a {
-    color: #FFFFFF;
-    margin-top: auto;
-
-    font-size: 16px;
-
-    text-decoration: none;
-    font-weight: normal;
-}
-
-#footerRow a:hover {
-    text-decoration: underline;
-}
-
-#copyright {
-    margin: 0;
-    padding: 25px 0 10px 0;
-
-    color: #FFFFFF;
-    
-    font-size: 12px;
-    font-weight: normal;
-}
-
-footer p {
-    color: #FFFFFF;
-    font-size: 16px;
-}
-
-#footerMail {
-    text-decoration: underline;
 }
 
 .row {

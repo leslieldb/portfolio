@@ -14,13 +14,6 @@
     
 }
 
-#goalsPhoto {
-    -moz-border-radius: 0 14px 14px 14px;
-	-o-border-radius: 0 14px 14px 14px;
-	-webkit-border-radius: 0 14px 14px 14px;
-	border-radius: 0 14px 14px 14px; /* CSS3 rule */
-}
-
 #indexTopBar h1 {
     margin: 0;
     font-size: 50px;
@@ -31,61 +24,124 @@
     font-size: 18px;
 }
 
-.pfp {
-    padding: 0;
-    display: flex;
-    list-style: none;
-    align-items: center;
-}
-
-footer {
-    margin-top: 60px;
-    background-color: #000000;
-}
-
-#footerRow {
-    width: 1200px;
-
+#aboutGoals {
+    padding: 0 1rem;
     color: #FFFFFF;
-
-    margin: 0 auto;
+    font-size: 18px;
 }
 
-.footer-site-nav h4 {
-    margin: 0.5rem 0;
+#goalsPhoto {
+    margin-bottom: 1rem;
+
+    /* progressive enhancement */
+	-moz-border-radius: 0 14px 14px 14px;
+	-o-border-radius: 0 14px 14px 14px;
+	-webkit-border-radius: 0 14px 14px 14px;
+	border-radius: 0 14px 14px 14px; /* CSS3 rule */
 }
 
-#footerRow a {
+.left-header {
+    margin-left: 25px;
+    color: #802BFF;
+}
+
+.right-header {
+    margin-right: 25px;
+    color: #73FF7A;
+}
+
+#aboutGoals {
+    padding: 0 1rem;
     color: #FFFFFF;
-    margin-top: auto;
-
-    font-size: 16px;
-
-    text-decoration: none;
-    font-weight: normal;
+    font-size: 20px;
 }
 
-#footerRow a:hover {
-    text-decoration: underline;
+#goalDiv1, #certificate3 {
+    background-color: #B1FF99;
+    height: 350px;
+
+    /* progressive enhancement */
+	-moz-border-radius: 14px;
+	-o-border-radius: 14px;
+	-webkit-border-radius: 14px;
+	border-radius: 14px; /* CSS3 rule */
+
 }
 
-#copyright {
-    margin: 0;
-    padding: 25px 0 10px 0;
+#goalDiv2 {
+    background-color: #C299FF;
+    height: 375px;
 
-    color: #FFFFFF;
-    
-    font-size: 12px;
-    font-weight: normal;
+    /* progressive enhancement */
+	-moz-border-radius: 14px;
+	-o-border-radius: 14px;
+	-webkit-border-radius: 14px;
+	border-radius: 14px; /* CSS3 rule */
+
 }
 
-footer p {
-    color: #FFFFFF;
-    font-size: 16px;
+#goalDiv3 {
+    background-color: #B1FF99;
+    height: 375px;
+
+    /* progressive enhancement */
+	-moz-border-radius: 14px;
+	-o-border-radius: 14px;
+	-webkit-border-radius: 14px;
+	border-radius: 14px; /* CSS3 rule */
+
 }
 
-#footerMail {
-    text-decoration: underline;
+#university_img {
+    height: 350px;
+
+    /* progressive enhancement */
+	-moz-border-radius: 0 14px 14px 0;
+	-o-border-radius: 0 14px 14px 0;
+	-webkit-border-radius: 0 14px 14px 0;
+	border-radius: 0 14px 14px 0; /* CSS3 rule */
+}
+
+#development_img {
+    height: 375px;
+
+    /* progressive enhancement */
+	-moz-border-radius: 14px 0 0 14px;
+	-o-border-radius: 14px 0 0 14px;
+	-webkit-border-radius: 14px 0 0 14px;
+	border-radius: 14px 0 0 14px; /* CSS3 rule */
+}
+
+#summit_image {
+    height: 375px;
+
+    /* progressive enhancement */
+	-moz-border-radius: 0 14px 14px 0;
+	-o-border-radius: 0 14px 14px 0;
+	-webkit-border-radius: 0 14px 14px 0;
+	border-radius: 0 14px 14px 0; /* CSS3 rule */
+}
+
+.goalDiv {
+    margin-bottom: 25px;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.right-desc {
+    margin-right: 25px;
+    font-size: 18px;
+}
+
+.left-desc {
+    margin-left: 25px;
+    font-size: 18px;
 }
 
 .row {
@@ -95,6 +151,10 @@ footer p {
 
 .col-70 {
     width: 70%;
+}
+
+.col-65 {
+    width: 65%;
 }
 
 .col-60 {
@@ -107,6 +167,10 @@ footer p {
 
 .col-40 {
     width: 40%;
+}
+
+.col-35 {
+    width: 35%;
 }
 
 .col-30 {
